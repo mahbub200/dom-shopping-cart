@@ -1,0 +1,39 @@
+document.getElementById("phone-minus").addEventListener("click", function () {
+  //   let minus = document.getElementById("phone-input");
+  //   let minusStringValue = minus.value;
+  //   let minusValue = Number(minusStringValue);
+  //   let newMinusValue = minusValue - 1;
+  //   minus.value = newMinusValue;
+  let newMobileNumber =updateMobileNumber(false);
+  totalPrice(newMobileNumber);
+//   let total=newMobileNumber*200;
+//   let price=document.getElementById('phone-price');
+//   price.innerText=total;
+
+  
+});
+/// utility when Dry don repeat yourself
+
+// function updateCaseNumber(isIncrease,id) {
+//     // let caseNumberField = document.getElementById("case-input");
+//     let caseNumberField = document.getElementById(id);
+//     let caseNumberValue = caseNumberField.value;
+//     let previousCaseNumber = Number(caseNumberValue);
+//     let newCaseNumber;
+//     if (isIncrease) {
+//       newCaseNumber = previousCaseNumber + 1;
+//     } else {
+//       newCaseNumber = previousCaseNumber - 1;
+//     }
+//     caseNumberField.value = newCaseNumber;
+//     return newCaseNumber;
+//   }
+  
+//   function totalCasePrice(newCaseNumber,priceItem) {
+//       let totalCasePrice=newCaseNumber*50;
+    
+//       let casePrice=document.getElementById(priceItem);
+//       casePrice.innerText=totalCasePrice;
+//   }
+
+
